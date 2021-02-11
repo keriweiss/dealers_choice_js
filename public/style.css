@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  font-family: verdana;
+}
+
+body {
+  color: black;
+}
+
+h1 {
+  font-family: Impact;
+  font-size: 5em;
+  text-align: center;
+}
+
+h2 {
+  font-family: Impact;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.bf-list {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-family: Impact;
+  color: black;
+  text-align: center;
+}
+
+.each-bf {
+  display: flex;
+  /* justify-content: space-around; */
+  border: 2px black solid;
+  margin: 20px;
+}
+
+nav a {
+  color: white;
+  font-family: Impact;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.bf-position,
+a {
+  color: black;
+  font-family: Impact;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+header {
+  padding: 0.5em;
+  color: white;
+  background-color: purple;
+}
+
+.bullet {
+  font-weight: bold;
+}
+
+a:hover {
+  color: pink;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  margin: 0px 20px;
+}
+
+#top5 {
+  font-size: 50px;
+}
